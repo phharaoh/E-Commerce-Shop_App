@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:e_commerce_app/helper/theme/app_color.dart';
 
 class CustomTxtForm extends StatelessWidget {
   const CustomTxtForm({
@@ -22,8 +23,12 @@ class CustomTxtForm extends StatelessWidget {
 
         suffixIcon: suffixIcon,
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
-          borderSide: BorderSide.none,
+          borderRadius: BorderRadius.circular(8),
+          borderSide: const BorderSide(
+            color: AppColors.secoundryColor,
+            width: .05,
+            style: BorderStyle.none,
+          ),
         ),
       ),
     );
