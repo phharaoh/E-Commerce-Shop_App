@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:e_commerce_app/helper/app_router.dart';
+import 'package:e_commerce_app/helper/utils/app_router.dart';
 import 'package:e_commerce_app/controller/card_controller.dart';
 
 void main() {
