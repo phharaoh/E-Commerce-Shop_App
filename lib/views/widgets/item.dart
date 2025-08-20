@@ -19,7 +19,7 @@ class _ItemState extends State<Item> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        context.go('/itemView');
+        context.go('/itemView',extra: widget.product);
       },
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
